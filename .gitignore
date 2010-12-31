@@ -1,3 +1,3 @@
 .DS_Store
 src/
-mysql_error_log.err
+logs/mysql_error_log.err

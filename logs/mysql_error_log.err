@@ -121,3 +121,37 @@ InnoDB: Compressed tables use zlib 1.2.3
 101230 22:00:15 [Note] Event Scheduler: Loaded 0 events
 101230 22:00:15 [Note] /usr/local/mysql/bin/mysqld: ready for connections.
 Version: '5.5.8'  socket: '/Applications/MEMP/tmp/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+101231  1:25:34 [Note] /usr/local/mysql/bin/mysqld: Normal shutdown
+
+101231  1:25:34 [Note] Event Scheduler: Purging the queue. 0 events
+101231  1:25:34  InnoDB: Starting shutdown...
+101231  1:25:35  InnoDB: Shutdown completed; log sequence number 1595675
+101231  1:25:35 [Note] /usr/local/mysql/bin/mysqld: Shutdown complete
+
+101231 01:25:35 mysqld_safe mysqld from pid file /Applications/MEMP/tmp/mysql/mysql.pid ended
+101231 13:05:21 mysqld_safe The file /usr/local/mysql/bin/mysqld
+does not exist or is not executable. Please cd to the mysql installation
+directory and restart this script from there as follows:
+./bin/mysqld_safe&
+See http://dev.mysql.com/doc/mysql/en/mysqld-safe.html for more information
+101231 13:06:17 mysqld_safe Starting mysqld daemon with databases from /Applications/MEMP/Library/mysql/data
+101231 13:06:17 [Warning] You have forced lower_case_table_names to 0 through a command-line option, even though your file system '/Applications/MEMP/Library/mysql/data/' is case insensitive.  This means that you can corrupt a MyISAM table by accessing it with different cases. You should consider changing lower_case_table_names to 1 or 2
+101231 13:06:17 [Note] Plugin 'FEDERATED' is disabled.
+InnoDB: The InnoDB memory heap is disabled
+InnoDB: Mutexes and rw_locks use GCC atomic builtins
+InnoDB: Compressed tables use zlib 1.2.3
+101231 13:06:17  InnoDB: Initializing buffer pool, size = 128.0M
+101231 13:06:17  InnoDB: Completed initialization of buffer pool
+101231 13:06:17  InnoDB: highest supported file format is Barracuda.
+101231 13:06:17  InnoDB: 1.1.4 started; log sequence number 1595675
+101231 13:06:18 [Note] Event Scheduler: Loaded 0 events
+101231 13:06:18 [Note] /usr/local/mysql/bin/mysqld: ready for connections.
+Version: '5.5.8'  socket: '/Applications/MEMP/tmp/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+101231 13:10:38 [Note] /usr/local/mysql/bin/mysqld: Normal shutdown
+
+101231 13:10:38 [Note] Event Scheduler: Purging the queue. 0 events
+101231 13:10:38  InnoDB: Starting shutdown...
+101231 13:10:38  InnoDB: Shutdown completed; log sequence number 1595675
+101231 13:10:38 [Note] /usr/local/mysql/bin/mysqld: Shutdown complete
+
+101231 13:10:38 mysqld_safe mysqld from pid file /Applications/MEMP/tmp/mysql/mysql.pid ended
