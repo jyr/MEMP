@@ -1,0 +1,123 @@
+101230 21:08:25 mysqld_safe Starting mysqld daemon with databases from /Applications/MEMP/Library/data
+101230 21:08:25 [Warning] Setting lower_case_table_names=2 because file system for /Applications/MEMP/Library/data/ is case insensitive
+101230 21:08:25 [Note] Plugin 'FEDERATED' is disabled.
+InnoDB: The InnoDB memory heap is disabled
+InnoDB: Mutexes and rw_locks use GCC atomic builtins
+InnoDB: Compressed tables use zlib 1.2.3
+101230 21:08:25  InnoDB: Initializing buffer pool, size = 128.0M
+101230 21:08:25  InnoDB: Completed initialization of buffer pool
+101230 21:08:25  InnoDB: highest supported file format is Barracuda.
+101230 21:08:26  InnoDB: 1.1.4 started; log sequence number 1595675
+101230 21:08:26 [ERROR] Can't start server : Bind on unix socket: Permission denied
+101230 21:08:26 [ERROR] Do you already have another mysqld server running on socket: /Applications/MEMP/tmp/mysql/mysql.sock ?
+101230 21:08:26 [ERROR] Aborting
+
+101230 21:08:26  InnoDB: Starting shutdown...
+101230 21:08:27  InnoDB: Shutdown completed; log sequence number 1595675
+101230 21:08:27 [Note] /Applications/MEMP/Library/bin/mysqld: Shutdown complete
+
+101230 21:08:27 mysqld_safe mysqld from pid file /Applications/MEMP/Library/data/mysql.pid ended
+101230 21:34:05 mysqld_safe Starting mysqld daemon with databases from /Applications/MEMP/Library/data
+101230 21:34:05 [Warning] Setting lower_case_table_names=2 because file system for /Applications/MEMP/Library/data/ is case insensitive
+101230 21:34:05 [Note] Plugin 'FEDERATED' is disabled.
+InnoDB: The InnoDB memory heap is disabled
+InnoDB: Mutexes and rw_locks use GCC atomic builtins
+InnoDB: Compressed tables use zlib 1.2.3
+101230 21:34:06  InnoDB: Initializing buffer pool, size = 128.0M
+101230 21:34:06  InnoDB: Completed initialization of buffer pool
+101230 21:34:06  InnoDB: highest supported file format is Barracuda.
+101230 21:34:06  InnoDB: 1.1.4 started; log sequence number 1595675
+101230 21:34:06 [Note] Event Scheduler: Loaded 0 events
+101230 21:34:06 [Note] /Applications/MEMP/Library/bin/mysqld: ready for connections.
+Version: '5.5.8'  socket: '/Applications/MEMP/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+101230 21:37:26 [Note] /Applications/MEMP/Library/bin/mysqld: Normal shutdown
+
+101230 21:37:26 [Note] Event Scheduler: Purging the queue. 0 events
+101230 21:37:28 [Warning] /Applications/MEMP/Library/bin/mysqld: Forcing close of thread 1  user: 'jyr'
+
+101230 21:37:28  InnoDB: Starting shutdown...
+101230 21:37:29  InnoDB: Shutdown completed; log sequence number 1595675
+101230 21:37:29 [Note] /Applications/MEMP/Library/bin/mysqld: Shutdown complete
+
+101230 21:37:29 mysqld_safe mysqld from pid file /Applications/MEMP/Library/data/mysql.pid ended
+101230 21:38:20 mysqld_safe Starting mysqld daemon with databases from /Applications/MEMP/Library/data
+101230 21:38:20 [Warning] Setting lower_case_table_names=2 because file system for /Applications/MEMP/Library/data/ is case insensitive
+101230 21:38:20 [Note] Plugin 'FEDERATED' is disabled.
+InnoDB: The InnoDB memory heap is disabled
+InnoDB: Mutexes and rw_locks use GCC atomic builtins
+InnoDB: Compressed tables use zlib 1.2.3
+101230 21:38:20  InnoDB: Initializing buffer pool, size = 128.0M
+101230 21:38:20  InnoDB: Completed initialization of buffer pool
+101230 21:38:20  InnoDB: highest supported file format is Barracuda.
+101230 21:38:20  InnoDB: 1.1.4 started; log sequence number 1595675
+101230 21:38:20 [Note] Event Scheduler: Loaded 0 events
+101230 21:38:20 [Note] /Applications/MEMP/Library/bin/mysqld: ready for connections.
+Version: '5.5.8'  socket: '/Applications/MEMP/tmp/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+101230 21:42:04 [Note] /Applications/MEMP/Library/bin/mysqld: Normal shutdown
+
+101230 21:42:04 [Note] Event Scheduler: Purging the queue. 0 events
+101230 21:42:04  InnoDB: Starting shutdown...
+101230 21:42:04  InnoDB: Shutdown completed; log sequence number 1595675
+101230 21:42:04 [Note] /Applications/MEMP/Library/bin/mysqld: Shutdown complete
+
+101230 21:42:04 mysqld_safe mysqld from pid file /Applications/MEMP/Library/data/mysql.pid ended
+101230 21:43:43 mysqld_safe Starting mysqld daemon with databases from /Applications/MEMP/Library/data
+101230 21:43:43 [Warning] You have forced lower_case_table_names to 0 through a command-line option, even though your file system '/Applications/MEMP/Library/data/' is case insensitive.  This means that you can corrupt a MyISAM table by accessing it with different cases. You should consider changing lower_case_table_names to 1 or 2
+101230 21:43:43 [Note] Plugin 'FEDERATED' is disabled.
+InnoDB: The InnoDB memory heap is disabled
+InnoDB: Mutexes and rw_locks use GCC atomic builtins
+InnoDB: Compressed tables use zlib 1.2.3
+101230 21:43:43  InnoDB: Initializing buffer pool, size = 128.0M
+101230 21:43:43  InnoDB: Completed initialization of buffer pool
+101230 21:43:43  InnoDB: highest supported file format is Barracuda.
+101230 21:43:43  InnoDB: 1.1.4 started; log sequence number 1595675
+101230 21:43:43 [Note] Event Scheduler: Loaded 0 events
+101230 21:43:43 [Note] /usr/local/mysql/bin/mysqld: ready for connections.
+Version: '5.5.8'  socket: '/Applications/MEMP/tmp/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+101230 21:52:00 [Note] /usr/local/mysql/bin/mysqld: Normal shutdown
+
+101230 21:52:00 [Note] Event Scheduler: Purging the queue. 0 events
+101230 21:52:00  InnoDB: Starting shutdown...
+101230 21:52:01  InnoDB: Shutdown completed; log sequence number 1595675
+101230 21:52:01 [Note] /usr/local/mysql/bin/mysqld: Shutdown complete
+
+101230 21:52:01 mysqld_safe mysqld from pid file /Applications/MEMP/tmp/mysql/mysql.pid ended
+101230 21:52:38 mysqld_safe The file /usr/local/mysql/bin/mysqld
+does not exist or is not executable. Please cd to the mysql installation
+directory and restart this script from there as follows:
+./bin/mysqld_safe&
+See http://dev.mysql.com/doc/mysql/en/mysqld-safe.html for more information
+101230 21:53:28 mysqld_safe Starting mysqld daemon with databases from /Applications/MEMP/Library/data
+101230 21:53:28 [Warning] You have forced lower_case_table_names to 0 through a command-line option, even though your file system '/Applications/MEMP/Library/data/' is case insensitive.  This means that you can corrupt a MyISAM table by accessing it with different cases. You should consider changing lower_case_table_names to 1 or 2
+101230 21:53:28 [Note] Plugin 'FEDERATED' is disabled.
+InnoDB: The InnoDB memory heap is disabled
+InnoDB: Mutexes and rw_locks use GCC atomic builtins
+InnoDB: Compressed tables use zlib 1.2.3
+101230 21:53:28  InnoDB: Initializing buffer pool, size = 128.0M
+101230 21:53:28  InnoDB: Completed initialization of buffer pool
+101230 21:53:28  InnoDB: highest supported file format is Barracuda.
+101230 21:53:28  InnoDB: 1.1.4 started; log sequence number 1595675
+101230 21:53:28 [Note] Event Scheduler: Loaded 0 events
+101230 21:53:28 [Note] /usr/local/mysql/bin/mysqld: ready for connections.
+Version: '5.5.8'  socket: '/Applications/MEMP/tmp/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+101230 22:00:00 [Note] /usr/local/mysql/bin/mysqld: Normal shutdown
+
+101230 22:00:00 [Note] Event Scheduler: Purging the queue. 0 events
+101230 22:00:00  InnoDB: Starting shutdown...
+101230 22:00:00  InnoDB: Shutdown completed; log sequence number 1595675
+101230 22:00:00 [Note] /usr/local/mysql/bin/mysqld: Shutdown complete
+
+101230 22:00:00 mysqld_safe mysqld from pid file /Applications/MEMP/tmp/mysql/mysql.pid ended
+101230 22:00:15 mysqld_safe Starting mysqld daemon with databases from /Applications/MEMP/Library/data
+101230 22:00:15 [Warning] You have forced lower_case_table_names to 0 through a command-line option, even though your file system '/Applications/MEMP/Library/data/' is case insensitive.  This means that you can corrupt a MyISAM table by accessing it with different cases. You should consider changing lower_case_table_names to 1 or 2
+101230 22:00:15 [Note] Plugin 'FEDERATED' is disabled.
+InnoDB: The InnoDB memory heap is disabled
+InnoDB: Mutexes and rw_locks use GCC atomic builtins
+InnoDB: Compressed tables use zlib 1.2.3
+101230 22:00:15  InnoDB: Initializing buffer pool, size = 128.0M
+101230 22:00:15  InnoDB: Completed initialization of buffer pool
+101230 22:00:15  InnoDB: highest supported file format is Barracuda.
+101230 22:00:15  InnoDB: 1.1.4 started; log sequence number 1595675
+101230 22:00:15 [Note] Event Scheduler: Loaded 0 events
+101230 22:00:15 [Note] /usr/local/mysql/bin/mysqld: ready for connections.
+Version: '5.5.8'  socket: '/Applications/MEMP/tmp/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
