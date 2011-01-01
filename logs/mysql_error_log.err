@@ -155,3 +155,72 @@ Version: '5.5.8'  socket: '/Applications/MEMP/tmp/mysql/mysql.sock'  port: 3306 
 101231 13:10:38 [Note] /usr/local/mysql/bin/mysqld: Shutdown complete
 
 101231 13:10:38 mysqld_safe mysqld from pid file /Applications/MEMP/tmp/mysql/mysql.pid ended
+110101 13:42:51 mysqld_safe Starting mysqld daemon with databases from /Applications/MEMP/Library/mysql/data
+110101 13:42:51 [Warning] You have forced lower_case_table_names to 0 through a command-line option, even though your file system '/Applications/MEMP/Library/mysql/data/' is case insensitive.  This means that you can corrupt a MyISAM table by accessing it with different cases. You should consider changing lower_case_table_names to 1 or 2
+110101 13:42:51 [Note] Plugin 'FEDERATED' is disabled.
+InnoDB: The InnoDB memory heap is disabled
+InnoDB: Mutexes and rw_locks use GCC atomic builtins
+InnoDB: Compressed tables use zlib 1.2.3
+110101 13:42:51  InnoDB: Initializing buffer pool, size = 128.0M
+110101 13:42:51  InnoDB: Completed initialization of buffer pool
+InnoDB: The first specified data file ./ibdata1 did not exist:
+InnoDB: a new database to be created!
+110101 13:42:51  InnoDB: Setting file ./ibdata1 size to 10 MB
+InnoDB: Database physically writes the file full: wait...
+110101 13:42:51  InnoDB: Log file ./ib_logfile0 did not exist: new to be created
+InnoDB: Setting log file ./ib_logfile0 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+110101 13:42:51  InnoDB: Log file ./ib_logfile1 did not exist: new to be created
+InnoDB: Setting log file ./ib_logfile1 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+InnoDB: Doublewrite buffer not found: creating new
+InnoDB: Doublewrite buffer created
+InnoDB: 127 rollback segment(s) active.
+InnoDB: Creating foreign key constraint system tables
+InnoDB: Foreign key constraint system tables created
+110101 13:42:51  InnoDB: 1.1.4 started; log sequence number 0
+110101 13:42:51 [Note] Event Scheduler: Loaded 0 events
+110101 13:42:51 [Note] /usr/local/mysql/bin/mysqld: ready for connections.
+Version: '5.5.8'  socket: '/Applications/MEMP/tmp/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+110101 13:43:15 [Note] /usr/local/mysql/bin/mysqld: Normal shutdown
+
+110101 13:43:15 [Note] Event Scheduler: Purging the queue. 0 events
+110101 13:43:15  InnoDB: Starting shutdown...
+110101 13:43:15  InnoDB: Shutdown completed; log sequence number 1595675
+110101 13:43:15 [Note] /usr/local/mysql/bin/mysqld: Shutdown complete
+
+110101 13:43:15 mysqld_safe mysqld from pid file /Applications/MEMP/tmp/mysql/mysql.pid ended
+110101 13:43:48 mysqld_safe Starting mysqld daemon with databases from /Applications/MEMP/Library/mysql/data
+110101 13:43:48 [Warning] You have forced lower_case_table_names to 0 through a command-line option, even though your file system '/Applications/MEMP/Library/mysql/data/' is case insensitive.  This means that you can corrupt a MyISAM table by accessing it with different cases. You should consider changing lower_case_table_names to 1 or 2
+110101 13:43:48 [Note] Plugin 'FEDERATED' is disabled.
+InnoDB: The InnoDB memory heap is disabled
+InnoDB: Mutexes and rw_locks use GCC atomic builtins
+InnoDB: Compressed tables use zlib 1.2.3
+110101 13:43:48  InnoDB: Initializing buffer pool, size = 128.0M
+110101 13:43:48  InnoDB: Completed initialization of buffer pool
+110101 13:43:48  InnoDB: highest supported file format is Barracuda.
+110101 13:43:48  InnoDB: 1.1.4 started; log sequence number 1595675
+110101 13:43:48 [Note] Event Scheduler: Loaded 0 events
+110101 13:43:48 [Note] /usr/local/mysql/bin/mysqld: ready for connections.
+Version: '5.5.8'  socket: '/Applications/MEMP/tmp/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+110101 13:43:56 [Note] /usr/local/mysql/bin/mysqld: Normal shutdown
+
+110101 13:43:56 [Note] Event Scheduler: Purging the queue. 0 events
+110101 13:43:56  InnoDB: Starting shutdown...
+110101 13:43:56  InnoDB: Shutdown completed; log sequence number 1595675
+110101 13:43:56 [Note] /usr/local/mysql/bin/mysqld: Shutdown complete
+
+110101 13:43:56 mysqld_safe mysqld from pid file /Applications/MEMP/tmp/mysql/mysql.pid ended
+110101 14:07:34 mysqld_safe Starting mysqld daemon with databases from /Applications/MEMP/Library/mysql/data
+110101 14:07:35 [Warning] You have forced lower_case_table_names to 0 through a command-line option, even though your file system '/Applications/MEMP/Library/mysql/data/' is case insensitive.  This means that you can corrupt a MyISAM table by accessing it with different cases. You should consider changing lower_case_table_names to 1 or 2
+110101 14:07:35 [Note] Plugin 'FEDERATED' is disabled.
+InnoDB: The InnoDB memory heap is disabled
+InnoDB: Mutexes and rw_locks use GCC atomic builtins
+InnoDB: Compressed tables use zlib 1.2.3
+110101 14:07:35  InnoDB: Initializing buffer pool, size = 128.0M
+110101 14:07:35  InnoDB: Completed initialization of buffer pool
+110101 14:07:35  InnoDB: highest supported file format is Barracuda.
+110101 14:07:35  InnoDB: 1.1.4 started; log sequence number 1595675
+110101 14:07:35 [Note] Event Scheduler: Loaded 0 events
+110101 14:07:35 [Note] /usr/local/mysql/bin/mysqld: ready for connections.
+Version: '5.5.8'  socket: '/Applications/MEMP/tmp/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)

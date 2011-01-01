@@ -1,0 +1,4 @@
+2011/01/01 16:26:55 [warn] 6237#0: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /Applications/MEMP/conf/nginx/nginx.conf:2
+2011/01/01 16:26:55 [emerg] 6237#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2011/01/01 16:27:23 [error] 6241#0: *1 open() "/Applications/MEMP/Library/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2011/01/01 16:27:26 [error] 6241#0: *1 open() "/Applications/MEMP/Library/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
