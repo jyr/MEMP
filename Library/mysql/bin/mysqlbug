@@ -23,8 +23,8 @@ VERSION="5.5.8"
 COMPILATION_COMMENT="MySQL Community Server (GPL)"
 BUGmysql="mysql@lists.mysql.com"
 # This is set by configure
-COMP_CALL_INFO="CC='/usr/bin/gcc'  CFLAGS=' -Wall -Os -g -fno-common -fno-strict-aliasing -DDBUG_OFF -arch i386'  CXX='/usr/bin/gcc'  CXXFLAGS='-fno-exceptions  -Wall -Wno-unused-parameter -fno-implicit-templates -fno-exceptions -fno-rtti -Os -g -fno-common -felide-constructors -fno-strict-aliasing -DDBUG_OFF -arch i386'  LDFLAGS=''  ASFLAGS=''"
-COMP_RUN_INFO="CC='/usr/bin/gcc'  CFLAGS=' -Wall -Os -g -fno-common -fno-strict-aliasing -DDBUG_OFF -arch i386'  CXX='/usr/bin/gcc'  CXXFLAGS='-fno-exceptions  -Wall -Wno-unused-parameter -fno-implicit-templates -fno-exceptions -fno-rtti -Os -g -fno-common -felide-constructors -fno-strict-aliasing -DDBUG_OFF -arch i386'  LDFLAGS=''  ASFLAGS=''"
+COMP_CALL_INFO="CC='/usr/bin/gcc'  CFLAGS=' -Wall -Os -g -fno-common -fno-strict-aliasing -DDBUG_OFF -arch x86_64'  CXX='/usr/bin/gcc'  CXXFLAGS='-fno-exceptions  -Wall -Wno-unused-parameter -fno-implicit-templates -fno-exceptions -fno-rtti -Os -g -fno-common -felide-constructors -fno-strict-aliasing -DDBUG_OFF -arch x86_64'  LDFLAGS=''  ASFLAGS=''"
+COMP_RUN_INFO="CC='/usr/bin/gcc'  CFLAGS=' -Wall -Os -g -fno-common -fno-strict-aliasing -DDBUG_OFF -arch x86_64'  CXX='/usr/bin/gcc'  CXXFLAGS='-fno-exceptions  -Wall -Wno-unused-parameter -fno-implicit-templates -fno-exceptions -fno-rtti -Os -g -fno-common -felide-constructors -fno-strict-aliasing -DDBUG_OFF -arch x86_64'  LDFLAGS=''  ASFLAGS=''"
 CONFIGURE_LINE=""
 
 LIBC_INFO=""

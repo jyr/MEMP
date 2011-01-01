@@ -326,7 +326,7 @@
 #else
 /* No indentation, to fetch the lines from verification scripts */
 /* #undef SIZEOF_LONG */
-#define SIZEOF_VOIDP  4
+#define SIZEOF_VOIDP  8
 /* #undef SIZEOF_CHARP */
 /* #undef SIZEOF_SIZE_T */
 #endif
