@@ -50,7 +50,7 @@ make install
 NGINX
 ---
 
-./configure --prefix=/Applications/MEMP/Library/nginx --sbin-path=/Applications/MEMP/Library/nginx --conf-path=/Applications/MEMP/conf/nginx/nginx.conf --user=www-data --group=www-data --with-http_ssl_module --with-http_stub_status_module --pid-path=/Applications/MEMP/tmp/nginx --with-http_gzip_static_module --with-pcre=/Applications/MEMP/src/pcre-8.11/
+./configure --prefix=/Applications/MEMP/Library/nginx --sbin-path=/Applications/MEMP/Library/nginx --conf-path=/Applications/MEMP/conf/nginx/nginx.conf --user=nobody --group=nobody --with-http_ssl_module --with-http_stub_status_module --pid-path=/Applications/MEMP/tmp/nginx --with-http_gzip_static_module --with-pcre=/Applications/MEMP/src/pcre-8.11/
 
 make
 make install
