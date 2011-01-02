@@ -57,7 +57,7 @@
 /* #undef HAVE_DOPRNT */
 
 /* Define if your system has a working fnmatch function.  */
-/* #undef HAVE_FNMATCH */
+#define HAVE_FNMATCH 1
 
 /* Define if your struct stat has st_blksize.  */
 #define HAVE_ST_BLKSIZE 1
@@ -2587,10 +2587,10 @@
 #define HAVE_CRYPT 1
 
 /* Whether the system supports standard DES salt */
-#define PHP_STD_DES_CRYPT 0
+#define PHP_STD_DES_CRYPT 1
 
 /* Whether the system supports extended DES salt */
-#define PHP_EXT_DES_CRYPT 0
+#define PHP_EXT_DES_CRYPT 1
 
 /* Whether the system supports MD5 salt */
 #define PHP_MD5_CRYPT 0
@@ -2614,7 +2614,7 @@
 #define HAVE_REGEX_T_RE_MAGIC 1
 
 /*  see #24142  */
-#define PHP_ROUND_FUZZ 0.50000000001
+#define PHP_ROUND_FUZZ 0.5
 
 /* Define if your system has fork/vfork/CreateProcess */
 #define PHP_CAN_SUPPORT_PROC_OPEN 1
@@ -2686,16 +2686,16 @@
 /* #undef HAVE_LIBSOCKET */
 
 /* whether atof() accepts NAN */
-/* #undef HAVE_ATOF_ACCEPTS_NAN */
+#define HAVE_ATOF_ACCEPTS_NAN 1
 
 /* whether atof() accepts INF */
-/* #undef HAVE_ATOF_ACCEPTS_INF */
+#define HAVE_ATOF_ACCEPTS_INF 1
 
 /* whether HUGE_VAL == INF */
-/* #undef HAVE_HUGE_VAL_INF */
+#define HAVE_HUGE_VAL_INF 1
 
 /* whether HUGE_VAL + -HUGEVAL == NAN */
-/* #undef HAVE_HUGE_VAL_NAN */
+#define HAVE_HUGE_VAL_NAN 1
 
 /* whether strptime() declaration fails */
 #define HAVE_STRPTIME_DECL_FAILS 1
@@ -2923,7 +2923,7 @@
 /* #undef PTHREADS */
 
 /* PHP build date */
-#define PHP_BUILD_DATE "2011-01-01"
+#define PHP_BUILD_DATE "2011-01-02"
 
 /* hardcode for each of the cross compiler host */
 #define PHP_OS "Darwin"

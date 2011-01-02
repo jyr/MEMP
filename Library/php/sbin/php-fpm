@@ -1,7 +1,7 @@
 #! /bin/sh
 
 php_fpm_BIN=/Applications/MEMP/Library/php/bin/php-cgi
-php_fpm_CONF=/Applications/MEMP/conf/php/php-fpm
+php_fpm_CONF=/Applications/MEMP/conf/php5/php-fpm
 php_fpm_PID=/Applications/MEMP/tmp/php/php-fpm.pid
 
 
