@@ -8,12 +8,12 @@ __show_usage( ) {
 
 __create_alias( ) {
     if [ ! -d "/usr/local/mysql" ]; then
-        ln -s /Applications/MEMP/Library/mysql /usr/local/mysql
+        sudo ln -s /Applications/MEMP/Library/mysql /usr/local/mysql
     fi
 }
 
 __export_library( ){
-    if [ $DYLD_LIBRARY_PATH = "" ]; then
+    if [[ ! $DYLD_LIBRARY_PATH =~ "/usr/local/mysql/lib" ]]; then
         export DYLD_LIBRARY_PATH=/usr/local/mysql/lib:$DYLD_LIBRARY_PATH
     fi
 }
