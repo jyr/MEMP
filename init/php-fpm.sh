@@ -8,7 +8,7 @@ __show_usage( ) {
 
 __create_alias( ) {
     if [ ! -d "/usr/local/mysql" ]; then
-        sudo ln -s /Applications/MEMP/Library/mysql /usr/local/mysql
+        ln -s /Applications/MEMP/Library/mysql /usr/local/mysql
     fi
 }
 
