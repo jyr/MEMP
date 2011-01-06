@@ -36,6 +36,8 @@ class MEMPController (NSWindowController):
 	
     @objc.IBAction
     def openPage_(self, sender):
+		urlMEMP = NSURL.URLWithString_("http://localhost")
+		workspace = NSWorkspace.sharedWorkspace().openURL_(urlMEMP)
 		print "opan memp page"
 	
     @objc.IBAction
