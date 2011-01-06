@@ -13,7 +13,11 @@ import AppKit
 
 from PyObjCTools import AppHelper
 
+import sys
+sys.path.append("/Applications/MEMP/Library")
+
 import MEMPController
+
 # import modules containing classes required to start application and load MainMenu.nib
 import mempAppDelegate
 
