@@ -7,6 +7,7 @@
 
 from Foundation import *
 from AppKit import *
+from Authorization import Authorization, kAuthorizationFlagDestroyRights
 import objc
 import os
 
@@ -16,22 +17,31 @@ class MEMPController (NSWindowController):
 	
     def init(self):
 		self = super(MEMPController, self).init()
-		self.path = "sh /Applications/MEMP/init/"
+		self.path = "/Applications/MEMP/init/"
 		return self
 		
     @objc.IBAction
     def startServers_(self, sender):
-		#status = Authorization
-		os.system(self.path + "start.sh")
 		self.startButton.setHidden_(YES)
 		self.stopButton.setHidden_(NO)
+
+		auth = Authorization(destroyflags=(kAuthorizationFlagDestroyRights),)
+		startScript = self.path + "start"
+		privileges = auth.executeWithPrivileges(startScript)
+		os.system("sh " + self.path + "mysql.sh start")
+		os.system(privileges)
 		print "start servers..."
 	
     @objc.IBAction
     def stopServers_(self, sender):
-		os.system(self.path + "stop.sh")
 		self.startButton.setHidden_(NO)
 		self.stopButton.setHidden_(YES)
+
+		auth = Authorization(destroyflags=(kAuthorizationFlagDestroyRights),)
+		stopScript = self.path + "stop"
+		privileges = auth.executeWithPrivileges(stopScript)
+		os.system("sh " + self.path + "mysql.sh stop")
+		os.system(privileges)
 		print "stop servers"
 	
     @objc.IBAction
