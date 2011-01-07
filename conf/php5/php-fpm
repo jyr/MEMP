@@ -60,10 +60,10 @@
 			</value>
 
 			Unix user of processes
-		<!--	<value name="user">nobody</value>				-->
+			<value name="user">nobody</value>
 
 			Unix group of processes
-		<!--	<value name="group">nobody</value>		-->
+			<value name="group">nobody</value>
 
 			Process manager settings
 			<value name="pm">
