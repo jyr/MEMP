@@ -1945,25 +1945,25 @@
 /* #undef COMPILE_DL_MYSQLI */
 
 /*   */
-/* #undef HAVE_NCURSES_H */
+#define HAVE_NCURSES_H 1
 
 /*   */
-/* #undef HAVE_NCURSESLIB */
+#define HAVE_NCURSESLIB 1
 
 /*   */
-/* #undef HAVE_NCURSES_PANEL */
+#define HAVE_NCURSES_PANEL 1
 
 /*   */
-/* #undef HAVE_NCURSES_COLOR_SET */
+#define HAVE_NCURSES_COLOR_SET 1
 
 /*   */
-/* #undef HAVE_NCURSES_SLK_COLOR */
+#define HAVE_NCURSES_SLK_COLOR 1
 
 /*   */
-/* #undef HAVE_NCURSES_ASSUME_DEFAULT_COLORS */
+#define HAVE_NCURSES_ASSUME_DEFAULT_COLORS 1
 
 /*   */
-/* #undef HAVE_NCURSES_USE_EXTENDED_NAMES */
+#define HAVE_NCURSES_USE_EXTENDED_NAMES 1
 
 /* Whether to build ncurses as dynamic module */
 /* #undef COMPILE_DL_NCURSES */
@@ -2614,7 +2614,7 @@
 #define HAVE_REGEX_T_RE_MAGIC 1
 
 /*  see #24142  */
-#define PHP_ROUND_FUZZ 0.5
+#define PHP_ROUND_FUZZ 0.50000000001
 
 /* Define if your system has fork/vfork/CreateProcess */
 #define PHP_CAN_SUPPORT_PROC_OPEN 1
@@ -2923,7 +2923,7 @@
 /* #undef PTHREADS */
 
 /* PHP build date */
-#define PHP_BUILD_DATE "2011-01-02"
+#define PHP_BUILD_DATE "2011-01-12"
 
 /* hardcode for each of the cross compiler host */
 #define PHP_OS "Darwin"

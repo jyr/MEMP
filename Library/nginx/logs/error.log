@@ -2,3 +2,410 @@
 2011/01/01 16:26:55 [emerg] 6237#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
 2011/01/01 16:27:23 [error] 6241#0: *1 open() "/Applications/MEMP/Library/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
 2011/01/01 16:27:26 [error] 6241#0: *1 open() "/Applications/MEMP/Library/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2011/01/02 00:45:43 [warn] 10694#0: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /Applications/MEMP/conf/nginx/nginx.conf:2
+2011/01/02 00:45:43 [notice] 10694#0: signal process started
+2011/01/02 00:45:43 [alert] 10694#0: kill(6240, 15) failed (1: Operation not permitted)
+2011/01/02 00:50:08 [warn] 10715#0: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /Applications/MEMP/conf/nginx/nginx.conf:2
+2011/01/02 00:50:08 [emerg] 10715#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2011/01/02 00:51:17 [alert] 10722#0: worker process 10723 exited on signal 9
+2011/01/02 00:56:19 [notice] 10756#0: signal process started
+2011/01/02 01:32:51 [notice] 10798#0: signal process started
+2011/01/02 01:32:51 [error] 10798#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/02 01:33:02 [notice] 10806#0: signal process started
+2011/01/02 02:05:42 [warn] 66557#0: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /Applications/MEMP/conf/nginx/nginx.conf:2
+2011/01/02 02:05:42 [emerg] 66557#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2011/01/02 02:06:20 [warn] 66559#0: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /Applications/MEMP/conf/nginx/nginx.conf:2
+2011/01/02 02:06:20 [emerg] 66559#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2011/01/02 02:23:06 [error] 66565#0: *4 open() "/Applications/MEMP/Library/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2011/01/02 02:24:17 [error] 66565#0: *5 open() "/Applications/MEMP/Library/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2011/01/02 02:24:39 [error] 66565#0: *5 open() "/Applications/MEMP/Library/nginx/html/MAMP/Spanish/index.php" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /MAMP/Spanish/index.php?language=Spanish HTTP/1.1", host: "localhost", referrer: "http://localhost/MAMP/Spanish/navigation.php?language=Spanish"
+2011/01/02 02:24:44 [error] 66565#0: *5 open() "/Applications/MEMP/Library/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2011/01/02 02:25:03 [error] 66565#0: *5 open() "/Applications/MEMP/Library/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2011/01/02 02:26:28 [error] 66565#0: *6 "/Applications/MEMP/Library/nginx/html/MAMP/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /MAMP/?language=Spanish HTTP/1.1", host: "localhost"
+2011/01/02 02:26:31 [error] 66565#0: *6 open() "/Applications/MEMP/Library/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2011/01/02 16:32:56 [warn] 29734#0: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /Applications/MEMP/conf/nginx/nginx.conf:2
+2011/01/02 16:32:56 [emerg] 29734#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2011/01/02 16:33:24 [warn] 30016#0: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /Applications/MEMP/conf/nginx/nginx.conf:2
+2011/01/02 16:33:24 [notice] 30016#0: signal process started
+2011/01/02 16:33:24 [error] 30016#0: invalid PID number "" in "/Applications/MEMP/tmp/nginx"
+2011/01/02 16:33:54 [warn] 30235#0: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /Applications/MEMP/conf/nginx/nginx.conf:2
+2011/01/02 16:33:54 [emerg] 30235#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2011/01/02 16:34:58 [warn] 30364#0: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /Applications/MEMP/conf/nginx/nginx.conf:2
+2011/01/02 16:34:58 [emerg] 30364#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2011/01/02 16:35:19 [error] 30371#0: *1 "/Applications/MEMP/Library/nginx/html/MAMP/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /MAMP/?language=Spanish HTTP/1.1", host: "localhost"
+2011/01/02 16:35:29 [error] 30371#0: *1 "/Applications/MEMP/Library/nginx/html/MAMP/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /MAMP/?language=Spanish HTTP/1.1", host: "localhost"
+2011/01/02 16:35:30 [error] 30371#0: *1 "/Applications/MEMP/Library/nginx/html/MAMP/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /MAMP/?language=Spanish HTTP/1.1", host: "localhost"
+2011/01/02 16:37:48 [warn] 30401#0: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /Applications/MEMP/conf/nginx/nginx.conf:2
+2011/01/02 16:37:48 [notice] 30401#0: signal process started
+2011/01/02 16:37:48 [alert] 30401#0: kill(30370, 15) failed (1: Operation not permitted)
+2011/01/02 16:38:14 [warn] 30419#0: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /Applications/MEMP/conf/nginx/nginx.conf:2
+2011/01/02 16:38:14 [notice] 30419#0: signal process started
+2011/01/02 16:38:14 [alert] 30419#0: kill(30370, 15) failed (1: Operation not permitted)
+2011/01/02 16:38:32 [warn] 30444#0: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /Applications/MEMP/conf/nginx/nginx.conf:2
+2011/01/02 16:38:32 [emerg] 30444#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2011/01/02 16:38:47 [warn] 30578#0: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /Applications/MEMP/conf/nginx/nginx.conf:2
+2011/01/02 16:38:47 [notice] 30578#0: signal process started
+2011/01/02 16:38:47 [alert] 30578#0: kill(30370, 15) failed (1: Operation not permitted)
+2011/01/02 16:40:58 [warn] 30645#0: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /Applications/MEMP/conf/nginx/nginx.conf:2
+2011/01/02 16:40:58 [emerg] 30645#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2011/01/02 16:41:17 [warn] 30780#0: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /Applications/MEMP/conf/nginx/nginx.conf:2
+2011/01/02 16:41:17 [notice] 30780#0: signal process started
+2011/01/02 16:41:17 [alert] 30780#0: kill(30370, 15) failed (1: Operation not permitted)
+2011/01/02 18:29:21 [warn] 30983#0: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /Applications/MEMP/conf/nginx/nginx.conf:2
+2011/01/02 18:29:21 [emerg] 30983#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2011/01/02 18:31:37 [warn] 31176#0: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /Applications/MEMP/conf/nginx/nginx.conf:2
+2011/01/02 18:31:37 [emerg] 31176#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2011/01/02 18:34:12 [warn] 31318#0: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /Applications/MEMP/conf/nginx/nginx.conf:2
+2011/01/02 18:34:12 [emerg] 31318#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2011/01/02 18:34:35 [notice] 31453#0: signal process started
+2011/01/02 18:35:12 [notice] 31464#0: signal process started
+2011/01/02 18:35:12 [error] 31464#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/02 18:35:35 [warn] 31492#0: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /Applications/MEMP/conf/nginx/nginx.conf:2
+2011/01/02 18:35:35 [emerg] 31492#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2011/01/02 18:35:56 [notice] 31627#0: signal process started
+2011/01/02 18:35:56 [error] 31627#0: invalid PID number "" in "/Applications/MEMP/tmp/nginx"
+2011/01/02 18:37:42 [warn] 31664#0: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /Applications/MEMP/conf/nginx/nginx.conf:2
+2011/01/02 18:37:42 [emerg] 31664#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2011/01/02 18:37:58 [notice] 31799#0: signal process started
+2011/01/02 18:37:58 [error] 31799#0: invalid PID number "" in "/Applications/MEMP/tmp/nginx"
+2011/01/02 19:29:18 [warn] 31872#0: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /Applications/MEMP/conf/nginx/nginx.conf:2
+2011/01/02 19:29:18 [emerg] 31872#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2011/01/02 19:29:54 [warn] 32016#0: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /Applications/MEMP/conf/nginx/nginx.conf:2
+2011/01/02 19:29:54 [emerg] 32016#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2011/01/02 19:30:36 [notice] 32168#0: signal process started
+2011/01/02 19:30:36 [error] 32168#0: invalid PID number "" in "/Applications/MEMP/tmp/nginx"
+2011/01/02 19:34:24 [warn] 32195#0: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /Applications/MEMP/conf/nginx/nginx.conf:2
+2011/01/02 19:34:24 [emerg] 32195#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2011/01/02 19:34:36 [notice] 32330#0: signal process started
+2011/01/02 19:34:36 [error] 32330#0: invalid PID number "" in "/Applications/MEMP/tmp/nginx"
+2011/01/03 12:50:32 [warn] 4200#0: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /Applications/MEMP/conf/nginx/nginx.conf:2
+2011/01/03 12:50:32 [emerg] 4200#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2011/01/03 12:50:50 [notice] 4337#0: signal process started
+2011/01/03 12:50:50 [error] 4337#0: invalid PID number "" in "/Applications/MEMP/tmp/nginx"
+2011/01/03 12:51:26 [warn] 4381#0: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /Applications/MEMP/conf/nginx/nginx.conf:2
+2011/01/03 12:51:26 [emerg] 4381#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2011/01/03 13:11:49 [notice] 4928#0: signal process started
+2011/01/03 13:11:49 [error] 4928#0: invalid PID number "" in "/Applications/MEMP/tmp/nginx"
+2011/01/03 23:19:58 [notice] 543#0: signal process started
+2011/01/03 23:19:58 [error] 543#0: invalid PID number "" in "/Applications/MEMP/tmp/nginx"
+2011/01/03 23:20:10 [warn] 579#0: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /Applications/MEMP/conf/nginx/nginx.conf:2
+2011/01/03 23:20:10 [emerg] 579#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2011/01/03 23:20:47 [notice] 759#0: signal process started
+2011/01/03 23:40:14 [warn] 1097#0: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /Applications/MEMP/conf/nginx/nginx.conf:2
+2011/01/03 23:40:14 [emerg] 1097#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2011/01/03 23:41:19 [notice] 1235#0: signal process started
+2011/01/03 23:41:19 [error] 1235#0: invalid PID number "" in "/Applications/MEMP/tmp/nginx"
+2011/01/03 23:45:34 [warn] 1404#0: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /Applications/MEMP/conf/nginx/nginx.conf:2
+2011/01/03 23:45:34 [notice] 1404#0: signal process started
+2011/01/03 23:45:34 [alert] 1404#0: kill(1280, 15) failed (1: Operation not permitted)
+2011/01/03 23:46:00 [notice] 1413#0: signal process started
+2011/01/03 23:46:28 [notice] 1568#0: signal process started
+2011/01/04 00:31:30 [notice] 2047#0: signal process started
+2011/01/04 00:31:37 [notice] 2055#0: signal process started
+2011/01/04 00:31:37 [error] 2055#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/04 01:55:14 [notice] 3071#0: signal process started
+2011/01/04 14:35:35 [notice] 7309#0: signal process started
+2011/01/04 14:35:35 [error] 7309#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/04 15:08:32 [notice] 7711#0: signal process started
+2011/01/04 15:08:56 [notice] 7876#0: signal process started
+2011/01/04 15:10:15 [emerg] 8055#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/04 15:10:15 [emerg] 8055#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/04 15:10:15 [emerg] 8055#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/04 15:10:15 [emerg] 8055#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/04 15:10:15 [emerg] 8055#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/04 15:10:15 [emerg] 8055#0: still could not bind()
+2011/01/04 15:10:31 [emerg] 8199#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/04 15:10:31 [emerg] 8199#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/04 15:10:31 [emerg] 8199#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/04 15:10:31 [emerg] 8199#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/04 15:10:31 [emerg] 8199#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/04 15:10:31 [emerg] 8199#0: still could not bind()
+2011/01/04 15:10:43 [notice] 8321#0: signal process started
+2011/01/04 15:11:04 [notice] 8330#0: signal process started
+2011/01/04 15:11:04 [error] 8330#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/04 16:17:12 [notice] 8698#0: signal process started
+2011/01/04 16:17:12 [error] 8698#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/04 22:05:38 [notice] 17060#0: signal process started
+2011/01/04 22:05:38 [error] 17060#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/04 22:37:08 [notice] 18382#0: signal process started
+2011/01/04 22:37:08 [error] 18382#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/05 00:38:56 [emerg] 24651#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 00:38:56 [emerg] 24651#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 00:38:56 [emerg] 24651#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 00:38:56 [emerg] 24651#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 00:38:56 [emerg] 24651#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 00:38:56 [emerg] 24651#0: still could not bind()
+2011/01/05 01:04:58 [error] 23083#0: *1 open() "/Applications/MEMP/Library/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2011/01/05 22:24:24 [emerg] 28327#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 22:24:24 [emerg] 28327#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 22:24:24 [emerg] 28327#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 22:24:24 [emerg] 28327#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 22:24:24 [emerg] 28327#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 22:24:24 [emerg] 28327#0: still could not bind()
+2011/01/05 22:24:57 [emerg] 28498#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 22:24:57 [emerg] 28498#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 22:24:57 [emerg] 28498#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 22:24:57 [emerg] 28498#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 22:24:57 [emerg] 28498#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 22:24:57 [emerg] 28498#0: still could not bind()
+2011/01/05 22:25:20 [emerg] 28659#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 22:25:20 [emerg] 28659#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 22:25:20 [emerg] 28659#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 22:25:20 [emerg] 28659#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 22:25:20 [emerg] 28659#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 22:25:20 [emerg] 28659#0: still could not bind()
+2011/01/05 22:25:43 [emerg] 28801#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 22:25:43 [emerg] 28801#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 22:25:43 [emerg] 28801#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 22:25:43 [emerg] 28801#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 22:25:43 [emerg] 28801#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 22:25:43 [emerg] 28801#0: still could not bind()
+2011/01/05 22:26:35 [notice] 28970#0: signal process started
+2011/01/05 22:26:36 [notice] 28977#0: signal process started
+2011/01/05 22:26:36 [error] 28977#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/05 22:28:36 [emerg] 29231#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 22:28:36 [emerg] 29231#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 22:28:36 [emerg] 29231#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 22:28:36 [emerg] 29231#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 22:28:36 [emerg] 29231#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 22:28:36 [emerg] 29231#0: still could not bind()
+2011/01/05 22:33:03 [emerg] 29567#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 22:33:03 [emerg] 29567#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 22:33:03 [emerg] 29567#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 22:33:03 [emerg] 29567#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 22:33:03 [emerg] 29567#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 22:33:03 [emerg] 29567#0: still could not bind()
+2011/01/05 23:24:55 [emerg] 32058#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:24:55 [emerg] 32058#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:24:55 [emerg] 32058#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:24:55 [emerg] 32058#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:24:55 [emerg] 32058#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:24:55 [emerg] 32058#0: still could not bind()
+2011/01/05 23:38:22 [emerg] 32689#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:38:22 [emerg] 32689#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:38:22 [emerg] 32689#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:38:22 [emerg] 32689#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:38:22 [emerg] 32689#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:38:22 [emerg] 32689#0: still could not bind()
+2011/01/05 23:42:08 [emerg] 33110#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:42:08 [emerg] 33110#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:42:08 [emerg] 33110#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:42:08 [emerg] 33110#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:42:08 [emerg] 33110#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:42:08 [emerg] 33110#0: still could not bind()
+2011/01/05 23:42:54 [emerg] 33290#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:42:54 [emerg] 33290#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:42:54 [emerg] 33290#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:42:54 [emerg] 33290#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:42:54 [emerg] 33290#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:42:54 [emerg] 33290#0: still could not bind()
+2011/01/05 23:43:00 [notice] 33410#0: signal process started
+2011/01/05 23:46:46 [emerg] 33754#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:46:46 [emerg] 33754#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:46:46 [emerg] 33754#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:46:46 [emerg] 33754#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:46:46 [emerg] 33754#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:46:46 [emerg] 33754#0: still could not bind()
+2011/01/05 23:47:29 [notice] 33915#0: signal process started
+2011/01/05 23:49:13 [emerg] 34156#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:49:13 [emerg] 34156#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:49:13 [emerg] 34156#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:49:13 [emerg] 34156#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:49:13 [emerg] 34156#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:49:13 [emerg] 34156#0: still could not bind()
+2011/01/05 23:50:26 [emerg] 34347#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:50:26 [emerg] 34347#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:50:26 [emerg] 34347#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:50:26 [emerg] 34347#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:50:26 [emerg] 34347#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:50:26 [emerg] 34347#0: still could not bind()
+2011/01/05 23:54:08 [emerg] 34661#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:54:08 [emerg] 34661#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:54:08 [emerg] 34661#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:54:08 [emerg] 34661#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:54:08 [emerg] 34661#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:54:08 [emerg] 34661#0: still could not bind()
+2011/01/05 23:55:30 [emerg] 34853#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:55:30 [emerg] 34853#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:55:30 [emerg] 34853#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:55:30 [emerg] 34853#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:55:30 [emerg] 34853#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:55:30 [emerg] 34853#0: still could not bind()
+2011/01/05 23:56:21 [emerg] 35036#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:56:21 [emerg] 35036#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:56:21 [emerg] 35036#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:56:21 [emerg] 35036#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:56:21 [emerg] 35036#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/05 23:56:21 [emerg] 35036#0: still could not bind()
+2011/01/06 00:17:26 [notice] 36227#0: signal process started
+2011/01/06 00:18:39 [notice] 36310#0: signal process started
+2011/01/06 00:18:39 [error] 36310#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/06 00:20:37 [emerg] 36771#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/06 00:20:37 [emerg] 36771#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/06 00:20:37 [emerg] 36771#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/06 00:20:37 [emerg] 36771#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/06 00:20:37 [emerg] 36771#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/06 00:20:37 [emerg] 36771#0: still could not bind()
+2011/01/06 00:23:05 [emerg] 37020#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/06 00:23:05 [emerg] 37020#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/06 00:23:05 [emerg] 37020#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/06 00:23:05 [emerg] 37020#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/06 00:23:05 [emerg] 37020#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/06 00:23:05 [emerg] 37020#0: still could not bind()
+2011/01/06 00:23:45 [notice] 37180#0: signal process started
+2011/01/06 00:35:25 [emerg] 37931#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/06 00:35:25 [emerg] 37931#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/06 00:35:25 [emerg] 37931#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/06 00:35:25 [emerg] 37931#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/06 00:35:25 [emerg] 37931#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/06 00:35:25 [emerg] 37931#0: still could not bind()
+2011/01/06 00:58:38 [emerg] 39051#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/06 00:58:38 [emerg] 39051#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/06 00:58:38 [emerg] 39051#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/06 00:58:38 [emerg] 39051#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/06 00:58:38 [emerg] 39051#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/06 00:58:38 [emerg] 39051#0: still could not bind()
+2011/01/06 01:16:04 [emerg] 40173#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/06 01:16:04 [emerg] 40173#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/06 01:16:04 [emerg] 40173#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/06 01:16:04 [emerg] 40173#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/06 01:16:04 [emerg] 40173#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/06 01:16:04 [emerg] 40173#0: still could not bind()
+2011/01/06 01:16:19 [notice] 40192#0: signal process started
+2011/01/06 01:16:49 [notice] 40383#0: signal process started
+2011/01/06 01:16:53 [notice] 40538#0: signal process started
+2011/01/06 01:19:02 [notice] 40821#0: signal process started
+2011/01/06 01:19:09 [notice] 40977#0: signal process started
+2011/01/06 01:19:50 [notice] 41010#0: signal process started
+2011/01/06 01:19:50 [error] 41010#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/06 01:27:53 [notice] 41771#0: signal process started
+2011/01/06 01:29:17 [notice] 41961#0: signal process started
+2011/01/06 01:29:32 [notice] 42116#0: signal process started
+2011/01/06 01:29:34 [notice] 42123#0: signal process started
+2011/01/06 01:29:34 [error] 42123#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/06 14:38:08 [notice] 5955#0: signal process started
+2011/01/06 17:58:31 [notice] 7588#0: signal process started
+2011/01/06 18:16:51 [notice] 7843#0: signal process started
+2011/01/06 18:28:22 [notice] 8147#0: signal process started
+2011/01/06 18:36:32 [notice] 8183#0: signal process started
+2011/01/06 18:36:32 [error] 8183#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/06 18:44:46 [notice] 8283#0: signal process started
+2011/01/06 18:44:46 [error] 8283#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/06 19:25:34 [notice] 8443#0: signal process started
+2011/01/06 19:25:34 [error] 8443#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/06 19:32:00 [notice] 8470#0: signal process started
+2011/01/06 19:32:00 [error] 8470#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/06 19:32:17 [notice] 8492#0: signal process started
+2011/01/06 19:32:17 [error] 8492#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/06 19:32:43 [notice] 8518#0: signal process started
+2011/01/06 19:32:43 [error] 8518#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/06 20:01:31 [notice] 8825#0: signal process started
+2011/01/06 20:01:31 [error] 8825#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/06 20:06:20 [notice] 8858#0: signal process started
+2011/01/06 20:06:20 [error] 8858#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/06 20:10:07 [notice] 8904#0: signal process started
+2011/01/06 20:10:07 [error] 8904#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/06 20:11:39 [notice] 8964#0: signal process started
+2011/01/06 20:11:39 [error] 8964#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/06 20:23:06 [notice] 9054#0: signal process started
+2011/01/06 20:23:06 [error] 9054#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/06 20:39:22 [notice] 9108#0: signal process started
+2011/01/06 20:39:22 [error] 9108#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/06 22:12:15 [notice] 10050#0: signal process started
+2011/01/06 22:12:15 [error] 10050#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/06 22:12:55 [notice] 10076#0: signal process started
+2011/01/06 22:12:55 [error] 10076#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/06 22:13:52 [notice] 10100#0: signal process started
+2011/01/06 22:13:52 [error] 10100#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/06 22:16:07 [notice] 10165#0: signal process started
+2011/01/06 22:16:07 [error] 10165#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/07 00:07:41 [notice] 11760#0: signal process started
+2011/01/07 00:09:50 [notice] 11994#0: signal process started
+2011/01/07 00:13:24 [notice] 12199#0: signal process started
+2011/01/07 00:13:43 [emerg] 12392#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/07 00:13:43 [emerg] 12392#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/07 00:13:43 [emerg] 12392#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/07 00:13:43 [emerg] 12392#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/07 00:13:43 [emerg] 12392#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/07 00:13:43 [emerg] 12392#0: still could not bind()
+2011/01/07 00:14:16 [notice] 12523#0: signal process started
+2011/01/07 00:18:01 [notice] 12816#0: signal process started
+2011/01/07 00:23:57 [notice] 13619#0: signal process started
+2011/01/07 00:23:57 [error] 13619#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/07 00:26:15 [notice] 13761#0: signal process started
+2011/01/07 00:26:15 [error] 13761#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/07 00:33:00 [notice] 13908#0: signal process started
+2011/01/07 00:33:00 [error] 13908#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/07 00:46:06 [notice] 15489#0: signal process started
+2011/01/07 00:46:06 [error] 15489#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/07 00:51:57 [notice] 15720#0: signal process started
+2011/01/07 00:52:05 [notice] 15729#0: signal process started
+2011/01/07 00:52:05 [error] 15729#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/07 00:54:18 [emerg] 15937#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/07 00:54:18 [emerg] 15937#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/07 00:54:18 [emerg] 15937#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/07 00:54:18 [emerg] 15937#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/07 00:54:18 [emerg] 15937#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/07 00:54:18 [emerg] 15937#0: still could not bind()
+2011/01/07 00:54:44 [notice] 16058#0: signal process started
+2011/01/07 01:03:59 [emerg] 16557#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/07 01:03:59 [emerg] 16557#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/07 01:03:59 [emerg] 16557#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/07 01:03:59 [emerg] 16557#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/07 01:03:59 [emerg] 16557#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2011/01/07 01:03:59 [emerg] 16557#0: still could not bind()
+2011/01/07 01:04:05 [notice] 16627#0: signal process started
+2011/01/07 01:04:11 [notice] 16636#0: signal process started
+2011/01/07 01:04:11 [error] 16636#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/07 15:28:54 [notice] 8978#0: signal process started
+2011/01/07 23:38:09 [notice] 24877#0: signal process started
+2011/01/07 23:38:28 [notice] 24888#0: signal process started
+2011/01/07 23:38:28 [error] 24888#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/07 23:40:45 [notice] 25259#0: signal process started
+2011/01/07 23:46:11 [notice] 25464#0: signal process started
+2011/01/07 23:51:31 [error] 25528#0: *1 open() "/Applications/MEMP/Library/nginx/html/scrape" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /scrape?info_hash=2%98%06%CAS%0ER%3DZ%DE%3A%80T%04o%5DW%E6%A5%8A HTTP/1.1", host: "tracker.thepiratebay.org"
+2011/01/07 23:55:17 [notice] 25707#0: signal process started
+2011/01/07 23:55:17 [notice] 25714#0: signal process started
+2011/01/07 23:55:17 [error] 25714#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/07 23:55:19 [notice] 25722#0: signal process started
+2011/01/07 23:55:19 [error] 25722#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/07 23:55:20 [notice] 25729#0: signal process started
+2011/01/07 23:55:20 [error] 25729#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/07 23:55:20 [notice] 25736#0: signal process started
+2011/01/07 23:55:20 [error] 25736#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/07 23:55:21 [notice] 25743#0: signal process started
+2011/01/07 23:55:21 [error] 25743#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/07 23:55:21 [notice] 25750#0: signal process started
+2011/01/07 23:55:21 [error] 25750#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/07 23:57:12 [notice] 25929#0: signal process started
+2011/01/07 23:57:52 [notice] 26104#0: signal process started
+2011/01/08 00:01:06 [error] 26218#0: *1 open() "/Applications/MEMP/Library/nginx/html/announce" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /announce?info_hash=2%98%06%CAS%0ER%3DZ%DE%3A%80T%04o%5DW%E6%A5%8A&peer_id=-TR2040-xi2hjbyuzdjl&port=51413&uploaded=298570466&downloaded=1874165760&left=5876629504&numwant=80&key=h22sf3s9&compact=1&supportcrypto=1&corrupt=79691776 HTTP/1.1", host: "tracker.thepiratebay.org"
+2011/01/08 00:15:04 [error] 26218#0: *2 open() "/Applications/MEMP/Library/nginx/html/scrape" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /scrape?info_hash=%0Cn%40lH%F67%BB%5B%EC%DE%94%8F%EDsj%406B%14 HTTP/1.1", host: "tracker.thepiratebay.org"
+2011/01/08 00:16:17 [error] 26218#0: *3 open() "/Applications/MEMP/Library/nginx/html/scrape" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /scrape?info_hash=P%ABn%C2%01v%ED%17%5F%DC%DB%82%84%1A%E5%89%BC%D1%26%A6 HTTP/1.1", host: "tracker.thepiratebay.org"
+2011/01/08 00:16:36 [error] 26218#0: *3 open() "/Applications/MEMP/Library/nginx/html/scrape" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /scrape?info_hash=%90Y8nT%3CSFhc%BE%7D%AC3%AAG%88%DC%CE%C6 HTTP/1.1", host: "tracker.thepiratebay.org"
+2011/01/08 00:17:34 [error] 26218#0: *3 open() "/Applications/MEMP/Library/nginx/html/scrape" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /scrape?info_hash=sQ8%E4%18%9A%C4%B7%06%14%9C%08%7C%0Bn%B6%22%CA0%9A HTTP/1.1", host: "tracker.thepiratebay.org"
+2011/01/08 00:17:59 [error] 26218#0: *3 open() "/Applications/MEMP/Library/nginx/html/scrape" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /scrape?info_hash=gJSI%D7%AA%CE%FA%B5%E4cZ%A5%FA%9E%C5%1E%E4%90%95 HTTP/1.1", host: "tracker.thepiratebay.org"
+2011/01/08 00:19:08 [error] 26218#0: *4 open() "/Applications/MEMP/Library/nginx/html/scrape" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /scrape?info_hash=%0D%97%EA%5C%EE3M%DF%CC%08%BE%EA%BE8%EEy%BE%40L%7C HTTP/1.1", host: "tracker.thepiratebay.org"
+2011/01/08 00:33:19 [error] 26218#0: *5 open() "/Applications/MEMP/Library/nginx/html/announce" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /announce?info_hash=2%98%06%CAS%0ER%3DZ%DE%3A%80T%04o%5DW%E6%A5%8A&peer_id=-TR2040-xi2hjbyuzdjl&port=51413&uploaded=315482836&downloaded=1974829056&left=5785092096&numwant=80&key=h22sf3s9&compact=1&supportcrypto=1&corrupt=79691776 HTTP/1.1", host: "tracker.thepiratebay.org"
+2011/01/08 01:03:01 [notice] 27217#0: signal process started
+2011/01/08 01:03:31 [notice] 27332#0: signal process started
+2011/01/08 01:04:57 [notice] 27458#0: signal process started
+2011/01/08 01:07:22 [notice] 27637#0: signal process started
+2011/01/10 22:02:44 [notice] 74903#0: signal process started
+2011/01/10 22:02:47 [notice] 74910#0: signal process started
+2011/01/10 22:02:47 [error] 74910#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/10 23:48:27 [notice] 76459#0: signal process started
+2011/01/10 23:48:27 [error] 76459#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/11 22:27:02 [notice] 25891#0: signal process started
+2011/01/11 22:27:19 [notice] 25899#0: signal process started
+2011/01/11 22:27:19 [error] 25899#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/11 22:50:43 [notice] 26320#0: signal process started
+2011/01/11 22:50:59 [notice] 26329#0: signal process started
+2011/01/11 22:50:59 [error] 26329#0: open() "/Applications/MEMP/tmp/nginx" failed (2: No such file or directory)
+2011/01/11 23:00:04 [notice] 26555#0: signal process started
+2011/01/11 23:21:01 [notice] 27219#0: signal process started
+2011/01/11 23:22:51 [notice] 27448#0: signal process started
+2011/01/11 23:25:47 [notice] 27680#0: signal process started
+2011/01/11 23:27:52 [notice] 27902#0: signal process started
+2011/01/11 23:28:21 [notice] 28108#0: signal process started
+2011/01/12 00:47:11 [notice] 19718#0: signal process started
