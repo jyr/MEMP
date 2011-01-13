@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: Authorization
+Version: 0.1
+Summary: Pythonic wrapper for the Apple's Authorization API
+Home-page: http://undefined.org/python/
+Author: Bob Ippolito
+Author-email: bob@redivi.com
+License: Python
+Description: Pythonic wrapper for Apple's Authorization API in OS X (part of the Security framework).
+        Includes functionality up to Mac OS X 10.2.
+Keywords: Authorization,Security,su,sudo
+Platform: Mac OSX
