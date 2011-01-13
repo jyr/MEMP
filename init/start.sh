@@ -12,9 +12,7 @@ __set_privilegies( ) {
 }
 
 __export_library( ){
-    if [[ ! $DYLD_LIBRARY_PATH =~ "/usr/local/mysql/lib" ]]; then
-        export DYLD_LIBRARY_PATH=/usr/local/mysql/lib:$DYLD_LIBRARY_PATH
-    fi
+    export DYLD_LIBRARY_PATH=/Applications/MEMP/Library/lib:$DYLD_LIBRARY_PATH
 }
 
 __init( ) {
