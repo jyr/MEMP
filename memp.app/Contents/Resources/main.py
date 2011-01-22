@@ -17,7 +17,7 @@ import sys
 sys.path.append("/Applications/MEMP/Library")
 
 import MEMPController
-
+import PreferencesController
 # import modules containing classes required to start application and load MainMenu.nib
 import mempAppDelegate
 
