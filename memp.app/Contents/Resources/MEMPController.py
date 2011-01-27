@@ -32,14 +32,11 @@ class MEMPController (NSWindowController):
 			self.path = "/Applications/MEMP/init/"
 			self.auth = Authorization()
 		return self
-		#self.path = "/Applications/MEMP/init/"
-		#self.auth = Authorization()
-
-		#return self.initWithWindowNibName_("MainMenu")
 		
     @objc.IBAction
     def startServers_(self, sender):
-		self.start()
+		self.startButton.setHidden_(YES)
+		self.stopButton.setHidden_(NO)
 		
 		startScript = self.path + "start"
 		self.auth.executeWithPrivileges(startScript)
@@ -48,7 +45,8 @@ class MEMPController (NSWindowController):
 		
     @objc.IBAction
     def stopServers_(self, sender):
-		self.stop()
+		self.startButton.setHidden_(NO)
+		self.stopButton.setHidden_(YES)
 
 		stopScript = self.path + "stop"
 		self.auth.executeWithPrivileges(stopScript)
@@ -124,39 +122,17 @@ class MEMPController (NSWindowController):
 		self.stopServers_(self)
 		NSApp().terminate_(self)
 
-    def start(self):	
-		self.startButton.setHidden_(YES)
-		self.stopButton.setHidden_(NO)
-
-    def stop(self):
-		self.startButton.setHidden_(NO)
-		self.stopButton.setHidden_(YES)
-		
     def checkSettings(self):
 		settings = NSUserDefaults.standardUserDefaults()
-		startMEMP = settings.boolForKey_("start")
 
+		startMEMP = settings.boolForKey_("start")
 		if startMEMP:
-			startScript = self.path + "start"
 			try:
-				self.auth.executeWithPrivileges(startScript)
-				self.start()
+				self.startServers_(self)
 			except:
 				pass
-				
-		#stopMEMP = settings.boolForKey_("stop")
-		#if stopMEMP:
-		#	self.startMySQL.setHidden_(NO)
-		#	self.stopMySQL.setHidden_(YES)
-
-		#	stopMySQL = self.path + "stopMySQL"
-		#	self.auth.executeWithPrivileges(stopMySQL)
 		
 		openMEMP = settings.boolForKey_("open")
 		if openMEMP:
-			self.start()
-			urlMEMP = NSURL.URLWithString_("http://localhost/MEMP/")
-			workspace = NSWorkspace.sharedWorkspace().openURL_(urlMEMP)
-		
-		print "checkSettings"
-		#print startMEMP, stopMEMP, openMEMP
+			self.startServers_(self)
+			self.openPage_(self)
