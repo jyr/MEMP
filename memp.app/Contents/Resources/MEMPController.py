@@ -35,78 +35,89 @@ class MEMPController (NSWindowController):
 		
     @objc.IBAction
     def startServers_(self, sender):
-		self.startButton.setHidden_(YES)
-		self.stopButton.setHidden_(NO)
-		
-		startScript = self.path + "start"
-		self.auth.executeWithPrivileges(startScript)
-
-		print "start servers..."
+		try:
+			startScript = self.path + "start"
+			self.auth.executeWithPrivileges(startScript)
+			self.startButton.setHidden_(YES)
+			self.stopButton.setHidden_(NO)
+		except:
+			pass
 		
     @objc.IBAction
     def stopServers_(self, sender):
-		self.startButton.setHidden_(NO)
-		self.stopButton.setHidden_(YES)
-
-		stopScript = self.path + "stop"
-		self.auth.executeWithPrivileges(stopScript)
-
-		print "stop servers"
+		try:
+			stopScript = self.path + "stop"
+			self.auth.executeWithPrivileges(stopScript)
+			self.startButton.setHidden_(NO)
+			self.stopButton.setHidden_(YES)
+		except:
+			pass
 	
     @objc.IBAction
     def openPage_(self, sender):
 		urlMEMP = NSURL.URLWithString_("http://localhost/MEMP/")
 		workspace = NSWorkspace.sharedWorkspace().openURL_(urlMEMP)
-		print "opan memp page"
 	
     @objc.IBAction
     def startNginx_(self, sender):
-		self.startNginx.setHidden_(YES)
-		self.stopNginx.setHidden_(NO)
-		
-		startNginx = self.path + "startNginx"
-		self.auth.executeWithPrivileges(startNginx)
+		try:
+			startNginx = self.path + "startNginx"
+			self.auth.executeWithPrivileges(startNginx)
+			self.startNginx.setHidden_(YES)
+			self.stopNginx.setHidden_(NO)
+		except:
+			pass
 	
     @objc.IBAction
     def stopNginx_(self, sender):
-		self.startNginx.setHidden_(NO)
-		self.stopNginx.setHidden_(YES)
-		
-		stopNginx = self.path + "stopNginx"
-		self.auth.executeWithPrivileges(stopNginx)
+		try:		
+			stopNginx = self.path + "stopNginx"
+			self.auth.executeWithPrivileges(stopNginx)
+			self.startNginx.setHidden_(NO)
+			self.stopNginx.setHidden_(YES)
+		except:
+			pass
 
     @objc.IBAction
     def startMySQL_(self, sender):
-		self.startMySQL.setHidden_(YES)
-		self.stopMySQL.setHidden_(NO)
-		
-		startMySQL = self.path + "startMySQL"
-		self.auth.executeWithPrivileges(startMySQL)
+		try:
+			startMySQL = self.path + "startMySQL"
+			self.auth.executeWithPrivileges(startMySQL)
+			self.startMySQL.setHidden_(YES)
+			self.stopMySQL.setHidden_(NO)
+		except:
+			pass
 	
     @objc.IBAction
     def stopMySQL_(self, sender):
-		self.startMySQL.setHidden_(NO)
-		self.stopMySQL.setHidden_(YES)
-
-		stopMySQL = self.path + "stopMySQL"
-		self.auth.executeWithPrivileges(stopMySQL)
+		try:
+			stopMySQL = self.path + "stopMySQL"
+			self.auth.executeWithPrivileges(stopMySQL)
+			self.startMySQL.setHidden_(NO)
+			self.stopMySQL.setHidden_(YES)
+		except:
+			pass
 
 			
     @objc.IBAction
     def startPHP_(self, sender):
-		self.startPHP.setHidden_(YES)
-		self.stopPHP.setHidden_(NO)
-		
-		startPHP = self.path + "startPHP"
-		self.auth.executeWithPrivileges(startPHP)
+		try:		
+			startPHP = self.path + "startPHP"
+			self.auth.executeWithPrivileges(startPHP)
+			self.startPHP.setHidden_(YES)
+			self.stopPHP.setHidden_(NO)
+		except:
+			pass
 	
     @objc.IBAction
     def stopPHP_(self, sender):
-		self.startPHP.setHidden_(NO)
-		self.stopPHP.setHidden_(YES)
-
-		stopPHP = self.path + "stopPHP"
-		self.auth.executeWithPrivileges(stopPHP)
+		try:
+			stopPHP = self.path + "stopPHP"
+			self.auth.executeWithPrivileges(stopPHP)
+			self.startPHP.setHidden_(NO)
+			self.stopPHP.setHidden_(YES)
+		except:
+			pass
 
     @objc.IBAction
     def preferences_(self, sender):
@@ -119,7 +130,12 @@ class MEMPController (NSWindowController):
 
     @objc.IBAction
     def exit_(self, sender):
-		self.stopServers_(self)
+		settings = NSUserDefaults.standardUserDefaults()
+		stopMEMP = settings.boolForKey_("stop")
+		
+		if stopMEMP:
+			self.stopServers_(self)
+
 		NSApp().terminate_(self)
 
     def checkSettings(self):
@@ -127,12 +143,8 @@ class MEMPController (NSWindowController):
 
 		startMEMP = settings.boolForKey_("start")
 		if startMEMP:
-			try:
-				self.startServers_(self)
-			except:
-				pass
+			self.startServers_(self)
 		
 		openMEMP = settings.boolForKey_("open")
 		if openMEMP:
 			self.startServers_(self)
-			self.openPage_(self)
