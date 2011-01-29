@@ -1,5 +1,5 @@
 #MEMP Mac Enginx MySQL PHP written in pyobjc and cocoa.
-*Authors: [Jair Gaxiola](https://github.com/jyr)
+* Authors: [Jair Gaxiola](https://github.com/jyr)
 
 ##Features
 
