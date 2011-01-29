@@ -1,4 +1,4 @@
-#MEMP Mac Enginx MySQL PHP written in pyobjc and cocoa.
+#MEMP = Mac Enginx MySQL PHP.
 * Authors: [Jair Gaxiola](https://github.com/jyr)
 
 ##Features
