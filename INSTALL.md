@@ -1,1 +1,3 @@
-Project Clone in /Applications :)
+
+* Project Clone in /Applications
+* Run memp.app
